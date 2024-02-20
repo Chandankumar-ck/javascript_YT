@@ -1,0 +1,9 @@
+let Myname = "chandan"
+let age = 25
+let isMarried = false
+let futureCarrear; // undefined. may be we defined something in future. so that case we use this type of data types.
+let future = null //stand alone value no value (no zero)
+
+console.log(typeof future); // the answer will be shown - Object . it's a null but as per Js when you check data types it will show "Object."
+
+console.table([Myname,age, isMarried, futureCarrear, future])
